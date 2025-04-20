@@ -1,4 +1,4 @@
-const add =  require('./calc').add;
+const add =  require('./pages/calc').add;
 
 test ('adds 2+2 to equal 4', () => {
     expect (add (2, 2)).toBe (4);
