@@ -13,10 +13,8 @@ jobs:
            node-version: '18.x'
 
        - run: npm install
+       
+       - name: Test with coverage
        - run: npm test -- --coverage && cat coverage/lcov-report/index.html
 
-       - name: Upload coverage report
-         uses: actions/upload-artifact@v3
-         with:
-           name: coverage-report
-           path: coverage/
+       
