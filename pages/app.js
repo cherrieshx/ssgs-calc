@@ -1,6 +1,7 @@
 const readline = require('readline/promises');
 const { stdin: input, stdout: output } = require('node:process');
-const { add, sub, mul, div, pow} =  require('./pages/calc');
+const { add, sub, mul, div, pow } = require('./calc');
+const { Console } = require('node:console');
 
 
 async function calc() {
@@ -9,6 +10,7 @@ async function calc() {
 
     while (true) {
         console.log("Please choose an operation with the given numbers or enter 0 to exit:");
+        console.log("0. Exit");
         console.log("1. Addition");
         console.log("2. Subtraction");
         console.log("3. Multiplication");
