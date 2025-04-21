@@ -1,15 +1,19 @@
 name: test
-on : push
+on: push
 jobs:
  test:
      runs-on: ubuntu-latest
      steps:
-       - name: checkout repo
+       - name: Checkout repo
          uses: actions/checkout@v3
+
+       - name: Setup Node.js
+         uses: actions/setup-node@v3
          with:
-           node.version: '18.x'
+           node-version: '18.x'
+
        - run: npm install
-       - run: npm test -- -- coverage
+       - run: npm test -- --coverage
 
        - name: Upload coverage report
          uses: actions/upload-artifact@v3
