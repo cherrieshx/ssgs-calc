@@ -40,7 +40,7 @@ node app.js
 ## Testing
 
 ```bash
-npm test
+npm test -- --coverage
 ```
 
 
