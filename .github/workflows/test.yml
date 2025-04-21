@@ -11,7 +11,8 @@ jobs:
          uses: actions/setup-node@v3
          with:
            node-version: '18.x'
-
+           
+       - name: Insallation
        - run: npm install
        
        - name: Test with coverage
