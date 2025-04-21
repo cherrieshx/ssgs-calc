@@ -1,9 +1,8 @@
 {
   "name": "ssgs-calc",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "build": "next build",
     "test": "jest"
   },
   "keywords": [],
@@ -12,12 +11,5 @@
   "description": "",
   "devDependencies": {
     "jest": "^29.7.0"
-  },
-  "dependencies": {
-
-    "jest": "^29.7.0",
-    "next": "^14.2.26",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
   }
 }
