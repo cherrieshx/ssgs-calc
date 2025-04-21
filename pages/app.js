@@ -15,7 +15,7 @@ async function calc() {
         console.log("2. Subtraction");
         console.log("3. Multiplication");
         console.log("4. Division");
-        console.log("5. Power (Exponentiation)");
+        console.log("5. Power ");
 
         try {
             let operation = parseFloat(await rl.question("Enter your choice: "));
