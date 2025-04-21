@@ -12,10 +12,10 @@ jobs:
          with:
            node-version: '18.x'
            
-       - name: Insallation
-       - run: npm install
+       - name: Installation
+         run: npm install
        
        - name: Test with coverage
-       - run: npm test -- --coverage && cat coverage/lcov-report/index.html
+         run: npm test -- --coverage && cat coverage/lcov-report/index.html
 
        
