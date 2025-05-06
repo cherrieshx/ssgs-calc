@@ -22,7 +22,17 @@ This is a simple command-line calculator built with Node.js.
   - **4.Division**
   - **5.Power**
 
- ##  Installation 
+## Requisiti
+
+- [Node.js](https://nodejs.org/) **v18.x** o superiore
+- [npm](https://www.npmjs.com/)
+Per verificare la versione:
+```bash
+node -v
+npm -v
+```
+
+##  Installation 
 
 ```bash
 git clone https://github.com/cherrieshx/ssgs-calc.git
@@ -42,5 +52,6 @@ npm start
 ```bash
 npm test
 ```
+Il risultato è visibile in Action
 
 
