@@ -1,4 +1,4 @@
-const { add, sub, mul, div, pow} =  require('./pages/calc');
+const { add, sub, mul, div, pow} =  require('../src/calc');
 
 test('if one or both input are not numbers, throw error', () => {
     expect(() => add('a', 2)).toThrow('ERROR:Invalid input! Please enter valid numbers.');
