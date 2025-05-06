@@ -26,6 +26,7 @@ This is a simple command-line calculator built with Node.js.
 
 - [Node.js](https://nodejs.org/) **v18.x** o superiore
 - [npm](https://www.npmjs.com/)
+
 Per verificare la versione:
 ```bash
 node -v
@@ -52,6 +53,6 @@ npm start
 ```bash
 npm test
 ```
-Il risultato è visibile in Action
+Il risultato è scaricabile in Actions nella sezione Artifacts dell'ultimo workflow eseguito con successo
 
 
