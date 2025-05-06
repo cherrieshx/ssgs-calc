@@ -53,7 +53,7 @@ npm start
 ```bash
 npm test
 ```
-Il progetto ha una pipeline CI che esegue automaticamente il test con coverage, per visualizzare i dettagli si va su Github Actions e selezionare 
+Il progetto ha una pipeline CI che esegue automaticamente il test con coverage, per visualizzare i dettagli si va su Github Actions e si seleziona
 l'ultimo workflow eseguito con successo, inoltre si può scaricare il risultato del test sotto nella sezione Artifacts.
 
 
