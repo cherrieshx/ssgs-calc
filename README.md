@@ -33,14 +33,14 @@ npm install
 ## Running
 
 ```bash
-cd pages
-node app.js
+cd src
+npm start
 ```
 
 ## Testing
 
 ```bash
-npm test -- --coverage
+npm test
 ```
 
 
