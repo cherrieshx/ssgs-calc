@@ -13,7 +13,7 @@
   "bug":{
     "url": "https://github.com/cherrieshx/ssgs-calc/issues"
   },
-  "homepage": "https://github.com/tuo-utente/tuo-repo#readme",
+  "homepage": "https://github.com/cherrieshx/tuo-repo#readme",
   "engines": {
     "node": ">=18.0.0"
   },
