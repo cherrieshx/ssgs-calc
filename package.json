@@ -10,10 +10,10 @@
     "type": "git",
     "url": "https://github.com/cherrieshx/ssgs-calc.git"
   },
-  "bug":{
+  "bugs":{
     "url": "https://github.com/cherrieshx/ssgs-calc/issues"
   },
-  "homepage": "https://github.com/cherrieshx/tuo-repo#readme",
+  "homepage": "https://github.com/cherrieshx/ssgs-calc#readme",
   "engines": {
     "node": ">=22.0.0"
   },

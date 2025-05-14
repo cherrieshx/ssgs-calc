@@ -17,7 +17,7 @@ test ('subtracts 5-3 to equal 2', () => {
     expect (sub (5, 3)).toBe (2);
 });
 
-test ('multiplies 3*3 to equal 9', () => {
+test ('multiplies 4*3 to equal 12', () => {
     expect (mul (4, 3)).toBe (12);
 });
 
