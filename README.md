@@ -24,7 +24,7 @@ This is a simple command-line calculator built with Node.js.
 
 ## Requisiti
 
-- [Node.js](https://nodejs.org/) **v18.x** o superiore
+- [Node.js](https://nodejs.org/) **v22.x** o superiore
 - [npm](https://www.npmjs.com/)
 
 Per verificare la versione:
