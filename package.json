@@ -15,7 +15,7 @@
   },
   "homepage": "https://github.com/cherrieshx/tuo-repo#readme",
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=22.0.0"
   },
   "jest":{
      "collectCoverage": true,
