@@ -38,7 +38,7 @@ npm -v
 ```bash
 git clone https://github.com/cherrieshx/ssgs-calc.git
 cd ssgs-calc
-npm install
+npm ci
 ```
 
 ## Running
